@@ -43,7 +43,7 @@
                 margin-top: 30px;
                 margin-bottom: 20px;
                 justify-content: center;
-                position: relative;
+                position:inherit;
                 background-size: cover;
                 background-color: transparent;
                 backdrop-filter: blur(1px);
@@ -63,6 +63,11 @@
                 height: max-content;
                 color: #040404;
 
+            }
+            @media only screen and (max-width:500px){
+                #background, #heading, #content, #para{
+                    width: 100%;
+                }
             }
         </style>
         </head>
