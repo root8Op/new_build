@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viwport" content="width:device-width, initial-scale=1.0">
+        <meta name="viewport" content="width:device-width, initial-scale=1.0">
         <title>index</title>
         <style>
             *{
@@ -42,7 +42,6 @@
             .w3-container{
                 margin-top: 30px;
                 margin-bottom: 20px;
-                justify-content: center;
                 position:inherit;
                 background-size: cover;
                 background-color: transparent;
@@ -59,21 +58,43 @@
                 background: url(https://raw.githubusercontent.com/root8Op/images/main/Picsart_24-01-02_13-06-00-163.jpg)no-repeat;
                 background-repeat: no-repeat;
                 background-position: center;
+                background-attachment: fixed;
                 background-size: 1300px 1000px;
                 height: max-content;
                 color: #040404;
 
             }
-            @media only screen and (max-width:500px){
-                #background, #heading, #content, #para{
-                    width: 100%;
-                }
+        @media  all and (max-width: 412px){
+            #heading{
+                width: 600px;
+                position: inherit;
+                text-align: right;
             }
+            #line{
+                width: 600px;
+            }
+            .w3-container{
+                 width: 400px;
+                 margin-left: 100px;
+             }
+         #image{
+             width: 300px;
+            margin-left: 50px;
+            }
+            #background{
+                width: 640px;
+                height: 1480px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: 900px 1500px;
+                background-attachment: fixed;
+            }
+     }
         </style>
         </head>
     <body id="background">
         <h1 id="heading"><marquee behavior="normal" direction="left"><i>HAPPY BIRTHDAY BEATUIFULL!❤️</i></marquee></h1>
-        <hr>
+        <hr id="line">
         <div id="content" class="w3-container ">
         <img id="image" src="https://raw.githubusercontent.com/root8Op/images/main/Picsart_23-01-16_19-05-37-611.jpg" alt="love-symbol">
         <p id="para"><i>Hey sweetest, today is a very special day for both of us and for mumma papa too.
